@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className=" bg-tertiary-light h-10 md:h-[70px] mt-16 w-full bottom-0 left-0">
+      <div className=" bg-tertiary-light min-h-10 md:h-[70px] mt-16 w-full bottom-0 left-0">
         <p className="flex justify-center items-center pt-[1.5rem] text-gray-500/50">
           Created by Vitech Solutions
         </p>
