@@ -1,5 +1,5 @@
 import Hero from '@/components/Hero'
-import Image from 'next/image'
+import SearchRooms from '@/components/SearchRooms'
 
 export default function Home() {
   return (
@@ -7,6 +7,10 @@ export default function Home() {
       <section>
         <div className="">
           <Hero />
+        </div>
+
+        <div className="">
+          <SearchRooms />
         </div>
       </section>
     </main>
