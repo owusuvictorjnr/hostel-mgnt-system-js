@@ -46,7 +46,7 @@ const Hero = () => {
           </div>
         </div>
         {/* Rooms */}
-        <div className="flex justify-between px-5 font-bold capitalize mt-4 md:text-[1.5rem]">
+        <div className="flex justify-between px-5 font-bold capitalize mt-4 md:text-[1.3rem]">
           <h1 className="">basic room</h1>
 
           <h1 className="">executive room</h1>
