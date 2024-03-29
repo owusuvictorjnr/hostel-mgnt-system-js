@@ -27,7 +27,7 @@ const Hero = () => {
             width="900"
             className="w-full rounded-[1rem] h-[13rem] lg:h-[25rem] px-2"
           />
-          <div className="flex space-x-5 lg:justify-center px-1">
+          <div className="grid grid-cols-2 space-x-3 lg:flex lg:justify-center px-1">
             <Image
               src="/assets/pic2.jpg"
               alt=""
