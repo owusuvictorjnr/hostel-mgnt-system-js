@@ -39,7 +39,7 @@ const FeaturedRoom = () => {
 
           <p className="lg:px-[10rem]">
             Experience comfort and convenience in our rooms designed to make
-            your stay unforgettable. Whether you're solo, with friends, or for
+            your stay unforgettable. Whether you&#39; solo, with friends, or for
             business, our carefully curated selection of rooms offers a blend of
             style, functionality, and affordability. From cozy single rooms to
             spacious executive suites, each accommodation is equipped with
