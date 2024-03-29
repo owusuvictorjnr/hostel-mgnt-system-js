@@ -1,3 +1,4 @@
+import FeaturedRoom from '@/components/FeaturedRoom'
 import Hero from '@/components/Hero'
 import SearchRooms from '@/components/SearchRooms'
 
@@ -11,6 +12,10 @@ export default function Home() {
 
         <div className="">
           <SearchRooms />
+        </div>
+
+        <div className="">
+          <FeaturedRoom />
         </div>
       </section>
     </main>
