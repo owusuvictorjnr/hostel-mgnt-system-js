@@ -6,6 +6,15 @@ import 'aos/dist/aos.css'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 
+import { Poppins } from 'next/font/google'
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '500', '700', '900'],
+  style: ['italic', 'normal'],
+  variable: '--font-poppins',
+})
+
 export default function RootLayout({ children }) {
   // AOS Init
   useEffect(() => {

@@ -1,12 +1,17 @@
 import { Inter } from 'next/font/google'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import Header from '@/components/Header'
 import './globals.css'
-import Footer from '@/components/Footer'
 // import ThemeProvider from '@/components/ThemeProvider'
 
-const inter = Inter({ subsets: ['latin'] })
+import { Poppins } from 'next/font/google'
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '500', '700', '900'],
+  style: ['italic', 'normal'],
+  variable: '--font-poppins',
+})
 
 export const metadata = {
   title: 'ANU Hostel Management',
@@ -16,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={poppins.className}>
         {/* <ThemeProvider> */}
 
         <main>{children}</main>
