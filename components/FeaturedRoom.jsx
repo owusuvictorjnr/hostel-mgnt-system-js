@@ -32,7 +32,7 @@ const FeaturedRoom = () => {
             />
           </div>
         </div>
-        <div className="px-5 space-y-5 lg:flex lg:flex-col lg:items-center mt-[10rem]">
+        <div className="px-5 space-y-5 lg:flex lg:flex-col lg:items-center lg:mt-[10rem]">
           <h1 className="text-2xl capitalize font-bold mt-5 md:mt-[3rem] lg:text-center lg:text-4xl">
             featured rooms
           </h1>
