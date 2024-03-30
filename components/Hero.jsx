@@ -33,7 +33,7 @@ const Hero = () => {
               alt=""
               height="900"
               width="900"
-              className=" rounded-xl h-[10rem] w-[15rem] md:w-[13.5rem]"
+              className=" rounded-xl h-[10rem] w-[15rem] md:w-[13.5rem] lg:w-full lg:h-[18rem]"
             />
 
             <Image
@@ -41,7 +41,7 @@ const Hero = () => {
               alt=""
               height="900"
               width="900"
-              className=" w-[15rem] rounded-xl h-[10rem] md:w-[13.5rem]"
+              className=" w-[15rem] rounded-xl h-[10rem] md:w-[13.5rem] lg:w-full lg:h-[18rem]"
             />
           </div>
         </div>

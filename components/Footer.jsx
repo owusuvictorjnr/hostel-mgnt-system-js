@@ -15,7 +15,7 @@ const Footer = () => {
 
         <div className=" flex flex-wrap gap-16 items-center justify-between">
           <div className="flex-1">
-            <p className=" capitalize">akwadun road</p>
+            <p className=" capitalize">akwadum road</p>
 
             <div className="flex items-center py-4">
               <BsFillSendFill />

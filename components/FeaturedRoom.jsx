@@ -14,13 +14,13 @@ const FeaturedRoom = () => {
             width="900"
             className="w-full rounded-[1rem] h-[13rem] lg:h-[25rem] px-2"
           />
-          <div className="grid grid-cols-2 space-x-3 lg:flex lg:justify-center px-1">
+          <div className="grid grid-cols-2 space-x-3  px-3">
             <Image
               src="/assets/pic2.jpg"
               alt=""
               height="900"
               width="900"
-              className=" rounded-xl h-[10rem] w-[15rem] md:w-[13.5rem]"
+              className=" rounded-xl h-[10rem] w-[15rem] md:w-[13.5rem] lg:w-full lg:h-[20rem]"
             />
 
             <Image
@@ -28,23 +28,23 @@ const FeaturedRoom = () => {
               alt=""
               height="900"
               width="900"
-              className=" w-[15rem] rounded-xl h-[10rem] md:w-[13.5rem]"
+              className=" w-[15rem] rounded-xl h-[10rem] md:w-[13.5rem] lg:w-full lg:h-[20rem]"
             />
           </div>
         </div>
-        <div className="px-5 space-y-5">
+        <div className="px-5 space-y-5 lg:flex lg:flex-col lg:items-center mt-[10rem]">
           <h1 className="text-2xl capitalize font-bold mt-5 md:mt-[3rem] lg:text-center lg:text-4xl">
             featured rooms
           </h1>
 
           <p className="lg:px-[10rem]">
             Experience comfort and convenience in our rooms designed to make
-            your stay unforgettable. Whether you&#39; solo, with friends, or for
-            business, our carefully curated selection of rooms offers a blend of
-            style, functionality, and affordability. From cozy single rooms to
-            spacious executive suites, each accommodation is equipped with
-            modern amenities and personalized touches to ensure a relaxing and
-            enjoyable stay. Explore our featured rooms below and book your
+            your stay unforgettable. Whether you&#39;re solo, with friends, or
+            for business, our carefully curated selection of rooms offers a
+            blend of style, functionality, and affordability. From cozy single
+            rooms to spacious executive suites, each accommodation is equipped
+            with modern amenities and personalized touches to ensure a relaxing
+            and enjoyable stay. Explore our featured rooms below and book your
             perfect retreat today.
           </p>
 
