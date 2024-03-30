@@ -14,9 +14,15 @@ const NewsLetter = () => {
           </p>
 
           <div className="space-x-3 text-center">
-            <input type="text" placeholder='Your email' className="px-2 py-2 rounded-lg" />
+            <input
+              type="text"
+              placeholder="Your email"
+              className="px-2 py-2 rounded-lg"
+            />
 
-            <button className="border-2 border-secondary text-white py-2 bg-secondary capitalize font-bold px-3 rounded-lg hover:scale-105 duration-300 md:w-1/3">subscribe</button>
+            <button className="border-2 border-secondary text-white py-2 bg-secondary capitalize font-bold px-3 rounded-lg hover:scale-105 duration-300 md:w-1/3">
+              subscribe
+            </button>
           </div>
         </div>
       </div>
