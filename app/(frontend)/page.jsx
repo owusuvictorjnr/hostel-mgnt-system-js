@@ -1,5 +1,6 @@
 import FeaturedRoom from '@/components/FeaturedRoom'
 import Hero from '@/components/Hero'
+import HomeImage from '@/components/HomeImage'
 import SearchRooms from '@/components/SearchRooms'
 
 export default function Home() {
@@ -16,6 +17,10 @@ export default function Home() {
 
         <div className="">
           <FeaturedRoom />
+        </div>
+
+        <div className="">
+          <HomeImage />
         </div>
       </section>
     </main>
