@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="flex flex-col items-center mt-5 px-2 md:px-0">
           <h1 className="text-[3rem]  capitalize font-bold md:text-[2.5rem] md:px-5">
-            expolre our exquisite hostel
+            explore our exquisite hostel
           </h1>
 
           <p className="text-[1.5rem] md:text-lg md:px-5">
