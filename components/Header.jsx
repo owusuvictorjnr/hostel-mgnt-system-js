@@ -47,25 +47,25 @@ const Header = () => {
       </div>
 
       <ul className=" flex items-center justify-between capitalize w-full lg:w-1/3">
-        <li className=" hover:-translate-y-2 duration-500 transition-all">
+        <li className=" hover:-translate-y-2 duration-500 transition-all hover:border-b-2 hover:border-tertiary-dark">
           <Link href="/" className="">
             home
           </Link>
         </li>
 
-        <li className=" hover:-translate-y-2 duration-500 transition-all">
+        <li className=" hover:-translate-y-2 duration-500 transition-all hover:border-b-2 hover:border-tertiary-dark">
           <Link href="/rooms" className="">
             rooms
           </Link>
         </li>
 
-        <li className=" hover:-translate-y-2 duration-500 transition-all">
+        <li className=" hover:-translate-y-2 duration-500 transition-all hover:border-b-2 hover:border-tertiary-dark">
           <Link href="/about-us" className="">
             about us
           </Link>
         </li>
 
-        <li className=" hover:-translate-y-2 duration-500 transition-all">
+        <li className=" hover:-translate-y-2 duration-500 transition-all hover:border-b-2 hover:border-tertiary-dark">
           <Link href="/contact-us" className="">
             contact us
           </Link>
