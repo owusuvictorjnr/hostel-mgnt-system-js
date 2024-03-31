@@ -12,9 +12,15 @@ const FeaturedRoom = () => {
             alt=""
             height="900"
             width="900"
+            data-aos="zoom-in"
+            data-aos-duration="800"
             className="w-full rounded-[1rem] h-[13rem] lg:h-[25rem] px-2"
           />
-          <div className="grid grid-cols-2 space-x-3  px-3">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="1300"
+            className="grid grid-cols-2 space-x-3  px-3"
+          >
             <Image
               src="/assets/pic2.jpg"
               alt=""
@@ -33,11 +39,19 @@ const FeaturedRoom = () => {
           </div>
         </div>
         <div className="px-5 space-y-5 lg:flex lg:flex-col lg:items-center lg:mt-[10rem]">
-          <h1 className="text-2xl capitalize font-bold mt-5 md:mt-[3rem] lg:text-center lg:text-4xl">
+          <h1
+            data-aos="zoom-in"
+            data-aos-duration="1600"
+            className="text-2xl capitalize font-bold mt-5 md:mt-[3rem] lg:text-center lg:text-4xl"
+          >
             featured rooms
           </h1>
 
-          <p className="lg:px-[10rem]">
+          <p
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            className="lg:px-[10rem]"
+          >
             Experience comfort and convenience in our rooms designed to make
             your stay unforgettable. Whether you&#39;re solo, with friends, or
             for business, our carefully curated selection of rooms offers a
@@ -49,17 +63,30 @@ const FeaturedRoom = () => {
           </p>
 
           <div className="grid grid-cols-3 container mx-auto lg:flex lg:justify-center lg:space-x-[5rem]">
-            <div className="capitalize font-normal  text-lg">
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              className="capitalize font-normal  text-lg"
+            >
               <h1 className="">start from</h1>
 
               <h1 className="font-bold">&#8373; 500</h1>
             </div>
 
-            <div className="capitalize font-normal  text-lg">
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              className="capitalize font-normal  text-lg"
+            >
               <h1 className="">discount</h1>
               <h1 className="font-bold">&#8373; 200</h1>
             </div>
-            <button className="border-tertiary-dark border-2 rounded-lg text-tertiary-dark hover:scale-110 duration-300 capitalize font-bold lg:px-5">
+
+            <button
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+              className="border-tertiary-dark border-2 rounded-lg text-tertiary-dark hover:scale-110 duration-300 capitalize font-bold lg:px-5"
+            >
               more details
             </button>
           </div>

@@ -8,7 +8,7 @@ const HomeImage = () => {
         {/* Left Top Images */}
         <div className="space-y-5 px-3">
           <div className="flex space-x-5">
-            <div className="">
+            <div data-aos="zoom-in" data-aos-duration="800" className="">
               <Image
                 src="/assets/pic3.jpg"
                 alt="image"
@@ -18,7 +18,7 @@ const HomeImage = () => {
               />
             </div>
 
-            <div className="">
+            <div data-aos="zoom-in" data-aos-duration="1200" className="">
               <Image
                 src="/assets/pic2.jpg"
                 alt="image"
@@ -29,7 +29,7 @@ const HomeImage = () => {
             </div>
           </div>
 
-          <div className="">
+          <div data-aos="zoom-in" data-aos-duration="1500" className="">
             <Image
               src="/assets/pic1.jpg"
               alt="image"
@@ -42,7 +42,7 @@ const HomeImage = () => {
 
         {/* Right Images */}
         <div className="space-y-5 px-3">
-        <div className="">
+          <div data-aos="zoom-in" data-aos-duration="1800" className="">
             <Image
               src="/assets/pic3.jpg"
               alt="image"
@@ -52,7 +52,7 @@ const HomeImage = () => {
             />
           </div>
           <div className="flex space-x-5">
-            <div className="">
+            <div data-aos="zoom-in" data-aos-duration="2000" className="">
               <Image
                 src="/assets/pic2.jpg"
                 alt="image"
@@ -62,7 +62,7 @@ const HomeImage = () => {
               />
             </div>
 
-            <div className="">
+            <div data-aos="zoom-in" data-aos-duration="2500" className="">
               <Image
                 src="/assets/pic1.jpg"
                 alt="image"

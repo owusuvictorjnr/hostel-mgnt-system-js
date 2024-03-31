@@ -5,8 +5,12 @@ import { FaAngleDown } from 'react-icons/fa6'
 
 const SearchRooms = () => {
   return (
-    <section className=" bg-secondary min-h-[10rem] px-2 rounded-lg pb-10 ">
-      <div className="grid grid-cols-1 md:grid-cols-3 pt-10 px-5 capitalize font-bold md:text-xl md:space-x-5">
+    <section
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+      className=" bg-secondary min-h-[10rem] px-2 rounded-lg pb-10 "
+    >
+      <div className="grid grid-cols-1 md:grid-cols-3 pt-10 px-5 capitalize font-bold md:text-xl md:space-x-5 space-y-5 md:space-y-0">
         <div className="">
           <h1 className="">room type</h1>
           <div className="flex">
