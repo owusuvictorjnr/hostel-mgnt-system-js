@@ -1,8 +1,7 @@
 'use Client'
 
 import React, { useEffect, useState } from 'react'
-
-import ThemeContext from '@/context/themeContext' // Assuming ThemeContext is imported from a separate file
+import ThemeContext from '@/context/ThemeContext'
 
 const ThemeProvider = ({ children }) => {
   const themeFromStorage =
