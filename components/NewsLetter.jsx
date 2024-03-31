@@ -33,7 +33,7 @@ const NewsLetter = () => {
             <input
               type="text"
               placeholder="Your email"
-              className="px-2 py-2 rounded-lg"
+              className="px-2 py-2 rounded-lg dark:text-black"
             />
 
             <button
