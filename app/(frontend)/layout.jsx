@@ -5,9 +5,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
-
-
-
+import ThemeProvider from '@/components/ThemeProvider'
 
 export default function RootLayout({ children }) {
   // AOS Init
@@ -22,10 +20,12 @@ export default function RootLayout({ children }) {
   }, [])
 
   return (
-    <div>
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </div>
+    <ThemeProvider>
+      <div>
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </div>
+    </ThemeProvider>
   )
 }
